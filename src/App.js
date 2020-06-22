@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import PageBuilder from './containers/PageBuilder';
 
-function App() {
-  return (
-    <div className="App">
-      <PageBuilder />
-      
-    </div>
-  );
+import {withRouter ,Switch, Route} from 'react-router-dom';
+
+import NavigationItems from './components/Navigation/NavigationItems/NavigationItems'
+
+
+class App extends Component {
+  render(){
+    let routes = (
+      <Switch>
+        <Route path="/" exact component={PageBuilder} />
+        <Route path="/about-me" exact component={PageBuilder} />
+      </Switch>
+    );
+    return (
+      <div className="App">
+        {routes}
+      </div>
+    );
+  }
 }
 
-export default App;
+export default withRouter(App);
