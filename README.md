@@ -6,3 +6,4 @@ Aqui puedes encontrar mas informacion personal acerca de mi, como mis hobbies, q
 
 1. Creamos un nuevo proyecto en React.
 2. Delete el logo que viene por defecto.
+3. Configurando el css para que lea las classes en el archivo webpack.config.js
