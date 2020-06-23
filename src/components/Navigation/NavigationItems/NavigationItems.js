@@ -9,8 +9,8 @@ const navigationItems = () => (
         <NavigationItem link="/" exact>Home </NavigationItem>
         <NavigationItem link="/about-me">About Me</NavigationItem>
         <NavigationItem link="/experience"> Experience </NavigationItem>
-        <NavigationItem link="/my_hobbies"> My Hobbies </NavigationItem>
-        <NavigationItem link="/my_family"> My Family </NavigationItem> 
+        <NavigationItem link="/my-hobbies"> My Hobbies </NavigationItem>
+        <NavigationItem link="/my-family"> My Family </NavigationItem> 
        
     </ul>
 
