@@ -13,6 +13,9 @@ class App extends Component {
       <Switch>
         <Route path="/" exact component={PageBuilder} />
         <Route path="/about-me" exact component={PageBuilder} />
+        <Route path="/experience" exact component={PageBuilder} />
+        <Route path="/my-hobbies" exact component={PageBuilder} />
+        <Route path="/my-family" exact component={PageBuilder} />
       </Switch>
     );
     return (
