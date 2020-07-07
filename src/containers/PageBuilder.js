@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 /* Importando css */
 import classes from './PageBuilder.css'
 import NavigationItems from '../components/Navigation/NavigationItems/NavigationItems';
-import Details from '../components/Details/Details'
+import Details from '../components/Details/Details';
+import Logo from '../components/LogoPerfil/Logo';
 
 
 class PageBuilder extends Component {
@@ -64,20 +65,22 @@ class PageBuilder extends Component {
     render(){
         return(
             
-            <div className={classes.somepagewrapper}>
-                    
-                <div>
-                     <nav>
-                        < NavigationItems />
-                    </nav>
+            <div className={classes.principalPage} >
+                
+                <div className={classes.NavigationItems}>
+
+                        <Logo />  
+                        <NavigationItems />
+                       
+                      
                 </div>
-            
-                 <div>
-                    {this.state.details}
+
+                <div className={classes.detail}>
+                   <a className={classes.details}>{this.state.details}</a> 
                 </div>
                                      
                
-                </div>
+            </div>
         )
     }
 

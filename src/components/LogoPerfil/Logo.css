@@ -1,0 +1,9 @@
+
+/* Para el css de la imagen */
+.Logo img{
+    width: 128px;
+    height: 128px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin: auto;
+}

@@ -1,19 +1,8 @@
-    .NavigationItems {
-
-        margin:0;
-        padding: 0;
-        list-style: none;
-        display: block;
-        flex-flow: column;
-        align-items: flex-start;
-        height: 100%;
-        
-
-    }
-
-/* Agregamos tambien aqui como en el archivo NavigationItem.css una consulta para el responsive. de navegacion del celular*/
-@media(min-width: 500px){
-    .NavigationItems{
-        flex-flow: initial; 
-    }
+/* del <ul> */
+.main{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+

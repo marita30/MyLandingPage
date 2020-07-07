@@ -1,60 +1,24 @@
-.NavigationItem {
 
-    margin: 10px 0;
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
+/* Para los <li> */
+.NavigationItem{
+    margin: 20px;
+    list-style: none;
 }
 
-.NavigationItem a {
+/* Para el css de los nombres de los <li> */
+.NavigationItem .NavLink{
     text-decoration: none;
-    width: 100%;
-    box-sizing: border-box;
-    display: block;
+    color: rgb(81, 87, 0);
+    font-weight: bold; 
+    font-size: 20px; 
 
-}
-
-.NavigationItem a:hover,
-.NavigationItem a:active,
-.NavigationItem a.active{
-
-    color: #40A4C8;
     
 }
 
-/* AGregaremos consulta para que se responsive en el celular */
-@media (min-width: 500px) {
-    .NavigationItem {
-
-        margin: 3px;
-        display: flex;
-        height: 100%;
-        width: auto;
-        align-items: center;
-        
-    }
-    
-    /* Para las letras del nav */
-    .NavigationItem a {
-        color: white;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: medium;
-        font-weight: bold;
-        height: 100%;
-        padding: 16px 10px;
-        border-bottom: 4px solid transparent;
-        display: block;
-    }
-    
-    /* Para cuando pase el cursor en cada */
-    .NavigationItem a:hover,
-    .NavigationItem a:active,
-    .NavigationItem a.active{
-        background-color: #B588F7;
-        border-bottom: 4px solid #FC76B3;
-        color: white;
-        
-    }
-    
-    
+/* Para cuando pase el cursor */
+.NavigationItem .NavLink:hover,
+.NavigationItem .NavLink:active{
+    color: white;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(81, 87, 0);
 }
