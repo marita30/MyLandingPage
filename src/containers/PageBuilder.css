@@ -1,44 +1,23 @@
 
 .principalPage{
   background-color: rgba(128, 128, 128, 0.432);
-  padding: 20px;
-  margin:20px;
+  padding: 30px;
+  margin:10%;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 
-/* Para alinear los div que esten en la principalPage */
-.principalPage > div{
-  display: inline-block;
-    /* Para alinear la etiqueta <a> con los <li> */
-    vertical-align: top;
-}
 
-/* css para los navigationItems que contienen el logo y navigationItems */
+/* css para los navigationItems que contienen el <logo> y <navigationItems> */
 .NavigationItems{
   /* background-color: tomato; */
   text-align: start;
+  margin:0;
 
 }
 
 
-/* Para el div del <a> detail */
-.detail{
-  background-image: url(../assets/images/curvas.jpg);
-  background-repeat: no-repeat;
-  padding: 20px;
-  margin:20px;
-  width: 950px;
-  height: 300px;
-  display: inline-block;
-  
-  
-}
 
-/* Para <a> que va contener los details */
-.details{
-  color: rgb(81, 87, 0);
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-  
-}
+
