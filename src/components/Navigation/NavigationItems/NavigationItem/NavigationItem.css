@@ -5,15 +5,18 @@
     list-style: none;
 }
 
+
+
 /* Para el css de los nombres de los <li> */
 .NavigationItem .NavLink{
     text-decoration: none;
     color: rgb(81, 87, 0);
     font-weight: bold; 
     font-size: 20px; 
-
     
 }
+
+
 
 /* Para cuando pase el cursor */
 .NavigationItem .NavLink:hover,
