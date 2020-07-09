@@ -58,7 +58,14 @@ class PageBuilder extends Component {
 
     onAboutMe = () => {
         this.setState({
-            details: <Details title='Maria'/>
+            details: <Details 
+                        title='Ingeniera en computacion' 
+                        description='Mi nombre es Maria Jose Chavarria Bravo, tengo la edad de 23 años, soy recientemente egresada de la carrera Ingenieria en computacion,
+                        soy una persona que me encanta viajar, conocer nuevas culturas, nuevas tecnologias, nuevos lenguajes, nuevas cosas, en mi tiemo libre me gusta ver series 
+                        en netflix, me encanta escuchar y disfrutar la musica y lo mas primordial me gusta pasar tiempo con mi familia, mi esposo y amigos.'
+                    />
+             
+
         })
     }
 
@@ -75,9 +82,9 @@ class PageBuilder extends Component {
                       
                 </div>
 
-                <div className={classes.detail}>
-                   <a className={classes.details}>{this.state.details}</a> 
-                </div>
+        
+                   {this.state.details}
+               
                                      
                
             </div>
