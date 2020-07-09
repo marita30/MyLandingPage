@@ -1,10 +1,10 @@
 
 .principalPage{
   background-color: rgba(128, 128, 128, 0.432);
-  padding: 30px;
-  margin:10%;
+  margin: 5px;
   display: flex;
   justify-content: space-between;
+  place-content: space-between;
   
 }
 
@@ -15,7 +15,8 @@
   /* background-color: tomato; */
   text-align: start;
   margin:0;
-
+  margin: 1%;
+ 
 }
 
 
