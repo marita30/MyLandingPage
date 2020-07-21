@@ -1,10 +1,60 @@
 
-/* Para el css de la imagen */
-.Logo img{
-    width: 128px;
-    height: 128px;
-    border: 2px solid green;
-    border-radius: 50%;
+/* Div principal */
+.Logo {
+    display: flex;
+    flex-direction: row-reverse;
+    background: rgba(102,199,200,1);
+    background-image: url(./../../assets/images/flor.jpeg);
+    opacity: 0.8;
+    background-repeat: repeat-y;
+    background-position: center;
+    border-style: none;
+    background-size: cover;
     margin: auto;
+    width: 940px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 535px;
+    margin-top: 20px;
+    text-align: center;
    
-}
+ }
+
+/* del div que contiene el h2 y p */
+ .descripcion{
+     font-family: inherit;
+     color: rgb(243, 116, 137);
+     /* Para darle espacio entre las dos columnas */
+     margin-left: 10px;
+     margin: 81px;
+     padding: 25px;
+     
+ }
+
+/* H2 */
+
+ .descripcion h2{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+     
+ }
+
+
+/* Para el css de la imagen */
+.Logo .image{
+    height: 536px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    opacity: 0.8;
+ }
+
+
+
+
+      
+

@@ -4,13 +4,15 @@ import classes from './NavigationItems.css';
 import NavigationItem from './NavigationItem/NavigationItem';
 
 /* Logo */
-import Logo from '../../LogoPerfil/Logo';
+import photoPerfil from '../../../assets/images/flor.jpeg';
 
 
 
 const navigationItems = () => (
+
+      
    
-        <ul className={classes.main}> 
+        <ul className={classes.featuresList}> 
 
             <NavigationItem link="/" exact>Home </NavigationItem>
             <NavigationItem link="/about-me">About Me</NavigationItem>
@@ -20,6 +22,8 @@ const navigationItems = () => (
             
         
         </ul>
+
+
   
 
 )

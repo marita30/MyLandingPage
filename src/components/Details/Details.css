@@ -1,8 +1,9 @@
-.elements{
+/* .elements{ */
     
-    padding: 20px;
-    width: 87%;
-    background-image: 
+    /* padding: 20px;
+    width: 87%; */
+    /* border: 5px solid green; */
+    /* background-image: 
     linear-gradient(
         rgba(199, 195, 196, 0.705),
         rgba(15, 122, 29, 0.274)
@@ -10,14 +11,16 @@
     url(../../assets/images/grey.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center; 
-}
+    background-position: center center; */
+/* }  */
+ 
 
 
-.title{
+/* .title{
     color: green;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
     font-style: italic;
-}
+    border: blue;
+}  */

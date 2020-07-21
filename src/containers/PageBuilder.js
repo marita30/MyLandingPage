@@ -71,12 +71,14 @@ class PageBuilder extends Component {
 
     render(){
         return(
+
             
             <div className={classes.principalPage} >
+               
                 
                 <div className={classes.NavigationItems}>
-
-                        <Logo />  
+                   
+                          <Logo />   
                         <NavigationItems />
                        
                       

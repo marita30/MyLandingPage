@@ -1,7 +1,8 @@
-/* del <ul> */
-.main{
-    
+/* Para la etiqueta <ul> */
+
+  .featuresList{
+    list-style: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
-

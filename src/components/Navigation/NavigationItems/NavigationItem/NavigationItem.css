@@ -1,27 +1,56 @@
 
-/* Para los <li> */
+/* Para la etiqueta <li> */
 .NavigationItem{
-    margin: 20px;
-    list-style: none;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
 }
 
 
 
+
+
+
+
+
+
+/* Para los <li> 
+    margin: 20px;
+    list-style: none;
+ } */
+
+
+
 /* Para el css de los nombres de los <li> */
-.NavigationItem .NavLink{
+/* .NavigationItem .NavLink{
     text-decoration: none;
     color: rgb(81, 87, 0);
     font-weight: bold; 
     font-size: 20px; 
     
-}
+} */
 
 
 
 /* Para cuando pase el cursor */
-.NavigationItem .NavLink:hover,
+/* .NavigationItem .NavLink:hover,
 .NavigationItem .NavLink:active{
     color: white;
     font-weight: bold;
     border-bottom: 5px solid rgb(81, 87, 0);
-}
+} */
+
+
+
+
+/* @media (min-width: 300px) and (max-width: 600px) {
+
+    .NavigationItem .NavLink{
+        display: inline-block;
+        text-align: right;
+       /* Para alinear la etiqueta <a> con los <li> */
+        /* vertical-align: middle;
+    }
+  
+  }  */
+  
